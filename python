@@ -35,4 +35,12 @@ def calculator():
                 print(f"{num1} * {num2} = {multiply(num1, num2)}")
             elif choice == '4':
                 print(f"{num1} / {num2} = {divide(num1, num2)}")
-        elif ch
+        elif choice.lower()=='q':
+            print("exiting the calculator.Goodbye!")
+            break
+        else:
+            print("invalid input! please enter a valid choice. ") 
+
+ if__name__=="__main__":
+    calculator()             
+
